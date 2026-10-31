@@ -1,0 +1,4 @@
+{"ts":"2026-10-10T07:00:00Z","ip":"10.0.0.7","path":"/healthz","status":200,"bytes":2}
+{"ts":"2026-10-10T07:00:05Z","ip":"10.0.0.7","path":"/healthz","status":200,"bytes":2}
+{"ts":"2026-10-10T07:00:09Z","ip":"10.0.0.8","path":"/api/orders","status":503}
+{"ts":"kaputt"}

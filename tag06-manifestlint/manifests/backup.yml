@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: backup
+  labels: {app.kubernetes.io/name: backup}
+spec:
+  schedule: "0 3 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: backup
+            image: "ghcr.io/example/backup@sha256:\
+              0b8a3f6c2d1e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
+            resources:
+              requests: {cpu: 1, memory: 256Mi}
+              limits: {memory: 256Mi}

@@ -1,0 +1,11 @@
+# Lab-Liste: öffentliche Seiten plus absichtliche Fehler
+https://go.dev
+https://kubernetes.io
+https://openbao.org
+https://example.com
+https://pkg.go.dev/net/http
+https://github.com/golang/go
+https://www.cncf.io
+https://httpbin.org/status/503
+https://github.com/nobody-xyz/nope-123
+https://nicht-vorhanden.invalid

@@ -1,0 +1,5 @@
+# envcheck.yaml – was dieser Rechner für die Labs braucht
+tools: [go, git, kubectl, helm]
+env: [HOME, KUBECONFIG]
+ports: ["127.0.0.1:8099"]
+timeout: 500ms

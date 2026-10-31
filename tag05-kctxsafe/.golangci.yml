@@ -1,0 +1,4 @@
+version: "2"
+linters:
+  exclusions:
+    presets: [std-error-handling] # fmt.Fprint*, Close & Co. nicht anmahnen

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "testdata/web.yaml",
+    "kind": "Deployment",
+    "name": "web",
+    "rule": "image-tag",
+    "message": "migrate: registry.local:5000/migrate"
+  },
+  {
+    "file": "testdata/web.yaml",
+    "kind": "Deployment",
+    "name": "web",
+    "rule": "image-tag",
+    "message": "web: nginx:latest"
+  },
+  {
+    "file": "testdata/web.yaml",
+    "kind": "Deployment",
+    "name": "web",
+    "rule": "resources",
+    "message": "web: requests.memory fehlt"
+  },
+  {
+    "file": "testdata/web.yaml",
+    "kind": "Deployment",
+    "name": "web",
+    "rule": "resources",
+    "message": "web: limits.memory fehlt"
+  },
+  {
+    "file": "testdata/web.yaml",
+    "kind": "Service",
+    "name": "web",
+    "rule": "label",
+    "message": "app.kubernetes.io/name fehlt"
+  }
+]
